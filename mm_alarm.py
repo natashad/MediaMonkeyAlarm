@@ -129,7 +129,7 @@ class MainWindow(wx.Frame):
                 else:
                     atTime.SetDay(atTime.GetDay() + 1)
 
-            #At this point, At time should be the right time and date.
+            # At this point, At time should be the right time and date.
 
             # The sleep time in seconds
             sleepTime = atTime.GetTicks() - now.GetTicks()
